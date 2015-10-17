@@ -14,9 +14,11 @@ Description: I am just trying to learn GitHub so this  is a trial file coded in 
 
   int count=0;
   while(r < t){
-    t=t=1;
+    t=t+1;
     r=r+r;
+    count++;
   }
 
 printf("The value of r is %d",r);
+printf("The loop executed %d times", count);
 }
