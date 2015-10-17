@@ -1,0 +1,22 @@
+/*
+Scriptname: TrialofGitHub
+Author: Kurt Stewart
+Date: October 16th, 2015
+
+Description: I am just trying to learn GitHub so this  is a trial file coded in C language
+*/
+
+#include <stdio.h>
+
+  int main(){
+
+  int t=4,r=2;
+
+  int count=0;
+  while(r < t){
+    t=t=1;
+    r=r+r;
+  }
+
+printf("The value of r is %d",r);
+}
